@@ -33,11 +33,11 @@ void DisplayHelp()
     cout<<" *    5.Don't include the following keywords in your com file.                     *"<<endl;
     cout<<" *            'NAtoms=' 'orientation:'  'Raffenetti'                               *"<<endl;
     cout<<" *            'basis' 'set' 'Overlap' 'Coefficients:'                              *"<<endl;
-	  cout<<" *                                                                                 *"<<endl;
-	  cout<<" *    6.If logfile readin geometry from checkpoint file, geom(check), then the     *"<<endl;
-	  cout<<" *      following line must be added to the logfile after the nuclear coordinates  *"<<endl;
-	  cout<<" *            'NAtoms= X'                                                          *"<<endl;
-	  cout<<" *      where 'X' is the number of atoms in your system.                           *"<<endl;
+    cout<<" *                                                                                 *"<<endl;
+    cout<<" *    6.If logfile readin geometry from checkpoint file, geom(check), then the     *"<<endl;
+    cout<<" *      following line must be added to the logfile after the nuclear coordinates  *"<<endl;
+    cout<<" *            'NAtoms= X'                                                          *"<<endl;
+    cout<<" *      where 'X' is the number of atoms in your system.                           *"<<endl;
     cout<<" ***********************************************************************************"<<endl;
     exit(-1);
 };
